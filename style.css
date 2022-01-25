@@ -1,0 +1,45 @@
+.Anime-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+}
+
+.Anime-row> * {
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+
+.Anime-row .card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Anime-row .card > .card-content {
+    flex-grow: 1;
+}
+
+.Anime-row.card > .card-image {
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: grey;
+}
+.NAME{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-left: 400px;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color:hsl(198, 25%, 42%);
+}
+#search{
+    border-radius:5px;
+    margin-left: 250px;
+}
